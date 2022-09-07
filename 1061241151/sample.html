@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<style>
+#container {width:1000px
+height:1000px}
+
+
+/* 以下是header區放置logo與banner主圖的css*/
+#header {
+background-color:#FFFF00;
+}
+
+
+#logo {
+height:500px
+width:500px
+float:left;/*飄移logo圖至同div區塊的左邊，這樣才不會擠斷後方的元素到下一列*/
+}
+<!-- ▼以上LOGO的CSS設計▼ -->
+
+
+h1 {
+height:300px
+margin-bottom:0;
+font-size:24px;padding:3px;text-align:center;
+}
+<!-- ▼以上是標題字的CSS設計▼ -->
+
+#menu {
+height:500px
+clear:both;/*消除之前float浮移區,這樣後方的menu DIV 才能重啟始浮移位置*/
+background-color:#FF00FF;height:500px;width:500px;float:left}
+<!-- ▼以上是選單的CSS設計▼ -->
+
+#content {background-color:#FFFF00;height:800px;width:500px;float:center;}
+<!-- ▼以上是主體的CSS設計▼ -->
+
+#footer {
+
+background-color:#FFFF00;
+clear:both;text-align:center;
+font-size:40px;/*不是主要重點就調小文字*/
+
+}
+<!-- ▼以上是的CSS設計▼ -->
+
+/* 以下是menu選單區css*/
+#nav {
+margin:0;
+padding:0;
+list-style-type:none;
+width:180px;
+display:inline-block;
+}
+li{
+float:left;
+margin:0 50px;
+}
+#nav li a {
+text-decoration: none;
+display:block;/*設定為區塊*/
+padding:3px;
+}
+
+#nav li a.active, #nav li a:hover {
+background:#eee;/*滑鼠滑入處變色*/
+color:#333;
+}
+
+
+</style>
+
+<div id="container" >
+<!-- ▼以下DIV區是主圖banner區▼ -->
+
+
+<div id="header">
+
+
+
+</div>
+
+<!-- ▼以下DIV區是選單區▼ -->
+
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #FFEE99;" >
+    <col span="1" style="background-color:#FFBB66;">
+  </colgroup>
+  <colgroup style="background-color: #FFA488;"></colgroup>
+  
+  
+ 
+  <tr>
+　<td align="center"colspan="4"><b>產品介紹</b></td>
+　</tr>
+
+  <tr>
+  <td style="height:50px;width:50px;vertical-align:middle;"><b>茶類</b></td>
+
+    <th>圖片</th>
+    <th>價錢</th>
+    <th>口感</th>
+  </tr>
+    <tr>
+    <td><font size="10"face="DFKai-sb">冬瓜茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="冬瓜茶.jpg" width="250" height="200"></font></td>
+    <td></font size="50"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">用冬瓜和糖長時間熬煮的冬瓜茶有一種特別的甘、醇和香甜，是許多人記憶裡非常懷念的味道。 冬瓜茶在台灣已經有超過百年的歷史，與甘蔗汁、青草茶並列為三大冰飲。 剛煮好的冬瓜糖水香氣四溢，冰鎮過的滋味喝起來更加甘甜，它不僅具有草根性，也是快速演進的台灣社會裡，唯一不變的家鄉味。</font></td>
+  </tr>
+  
+ <tr>
+    <td><font size="10"face="DFKai-sb">金萱茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="金萱茶.jpg" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">以金萱茶葉製作的茶品，帶有淡淡奶香。 綜合阿里山山頭獨特的山韻，阿里山金萱茶口感圓潤、質地香醇、入口回甘、淡淡清香與奶香，使它備受女性及年輕族群消費者喜愛，非常適合烏龍茶入門的基本款。</font></td>
+  </tr>
+  
+  <tr>
+    <td><font size="10"face="DFKai-sb">錫蘭紅茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="錫蘭紅茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">滋味強烈的紅茶，富含茶黃質、茶多酚的紅茶猶如葡萄酒般地強烈質地。 不同品種呈現滋味也有所不同，香氣以花果香為主，有些會有特殊品種香。</font></td>
+  </tr>
+  
+   <tr>
+    <td><font size="10"face="DFKai-sb">高山茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="高山茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">一般來說，高山茶的風味溫潤甘甜、不苦澀，因此成為許多人的心頭好。 許偉庭指出，由於高山氣候冷涼，早晚雲霧籠罩、平均日照短，高山茶的茶胺酸較高，但茶樹芽葉中具刺激性的抗氧化物（如兒茶素類）較少，才造就了口感的溫和甘甜不苦澀。</font></td>
+  </tr>
+
+ <tr>
+    <td><font size="10"face="DFKai-sb">鐵觀音奶茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="鐵觀音奶茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">茶葉產地來自台灣，屬於半發酵茶，使用鐵觀音的慢火烘焙製成，茶香與焙火香混合形成的香氣成分種類豐富，有一種特殊的韻味口齒留香！</font></td>
+  </tr>
+
+ <tr>
+    <td><font size="10"face="DFKai-sb">文山青茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="文山青茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">文山包種茶喝起來最清新入喉，由其是坪林地區所產的文山包種茶「香、濃、醇、韻、美」，長久以來一直是品茗者的最愛，香味清香撲鼻，茶味甘甜、喉韻十足，入口醇郁濃厚，落喉甘潤圓滑帶活性，茶菁均採「青心烏龍」品種，所製成的茶葉外觀翠綠帶麗色，條索緊結自然彎曲，沖泡後茶湯水色蜜綠鮮豔悅目，滋味甘潤。</font></td>
+  </tr>
+
+ <tr>
+    <td><font size="10"face="DFKai-sb">四季春茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="四季春茶.jpg" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">四季春茶由於萌芽早，亦稱為「不知春」。 採選春冬二季茶青原料製作，茶香明顯獨具幽雅花香，茶湯滋味純和清快不苦澀，刺激性低。 其特色香氣清逸、滋味醇厚，做法逐漸走低發酵，不僅有烏龍茶韻味，又有綠茶香氣，適合四季飲用，故稱之為四季春茶。</font></td>
+  </tr>
+
+ <tr>
+    <td><font size="10"face="DFKai-sb">烏龍綠茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="烏龍綠茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">烏龍綠茶茶湯呈現明淨澄澈的黃褐色，入口滑順潤澤，具有多層次的豐富口感，剛入口時清香淡雅，之後轉為甘醇豐厚，並帶出喉舌間濃郁、悠長的回甘尾韻，更有淡淡的炭燒香味迴盪其間。</font></td>
+  </tr>
+
+ <tr>
+    <td><font size="10"face="DFKai-sb">梅子綠茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="梅子綠茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">沁涼酸甜，消暑又清爽！暑假過了一大半了，雖然已經立秋，還是稍微有點暑氣呢！炎熱的下午來一杯梅子綠茶，清爽一下吧！綠茶的茉莉香味，搭配好趣覓脆梅，清爽的酸甜口感，是夏天最好的享受！</font></td>
+  </tr>
+
+ <tr>
+    <td><font size="10"face="DFKai-sb">檸檬紅茶</font></td>
+    <td><font size="5"face="DFKai-sb"><img src="檸檬紅茶.JFIF" width="250" height="200"></font></td>
+    <td></font size="5"face="DFKai-sb">10元</font></td>
+    <td></font size="5"face="DFKai-sb">檸檬紅茶的作法是將檸檬切成圓片放入紅茶中，享受其香氣和微酸的口感。 但檸檬皮會釋放出極苦的檸檬油，與紅茶的澀味成分兒茶素結合後會使得茶喝起來變得更苦、更澀。</font></td>
+  </tr>
+  </table>
+  <br/>
+  <br/>
+  <p align="center"><a href="add_data.php">返回購物</a></p>
+</body>
+
+</html>
